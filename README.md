@@ -16,6 +16,54 @@
 - `02_UE_Package/`：Windows 打包版本
 - `03_STM32_Project/`：STM32 控制端工程
 
+## 克隆到本地
+
+本仓库使用 Git LFS 管理 UE 资源和打包文件。不要直接使用 GitHub 网页的 `Download ZIP`，否则 `.exe`、`.ucas`、`.pak` 等大文件可能会变成 LFS 指针文件，导致游戏无法运行。
+
+Windows PowerShell 中执行：
+
+```powershell
+cd C:\Users\你的用户名
+git clone https://github.com/pikai-pk/STM32Assignment.git
+cd STM32Assignment
+git lfs install
+git lfs pull
+```
+
+如果网络不稳定，可以先设置 Git 使用 HTTP/1.1 后再克隆：
+
+```powershell
+git config --global http.version HTTP/1.1
+git config --global http.postBuffer 524288000
+cd C:\Users\你的用户名
+git clone --depth 1 https://github.com/pikai-pk/STM32Assignment.git
+cd STM32Assignment
+git lfs install
+git lfs pull
+```
+
+克隆完成后运行游戏：
+
+```text
+02_UE_Package\Windows\PongMQTT.exe
+```
+
+请保持整个 `02_UE_Package\Windows` 文件夹完整，不要只复制或只运行单独的 `PongMQTT.exe`。真正的游戏程序、资源包和运行库在旁边的 `Engine`、`PongMQTT\Binaries`、`PongMQTT\Content\Paks` 等目录中。
+
+可以用下面命令检查大文件是否拉取成功：
+
+```powershell
+dir .\02_UE_Package\Windows\PongMQTT.exe
+dir .\02_UE_Package\Windows\PongMQTT\Binaries\Win64\PongMQTT.exe
+dir .\02_UE_Package\Windows\PongMQTT\Content\Paks\PongMQTT-Windows.ucas
+```
+
+其中内部真正的 `PongMQTT\Binaries\Win64\PongMQTT.exe` 和 `PongMQTT-Windows.ucas` 应该是几十 MB 到几百 MB。如果只有 1KB 左右，说明 Git LFS 没有拉取成功，需要重新执行：
+
+```powershell
+git lfs pull
+```
+
 ## STM32 端配置修改
 
 STM32 控制端的 Wi-Fi、MQTT 和玩家编号配置集中在：

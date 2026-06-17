@@ -2,9 +2,15 @@
 
 嵌入式期末作业：基于 MQTT 的 UE5 双人弹球游戏与 STM32 控制器联动。
 
+![项目封面](01_UE_Project/PongMQTT/Content/Splash/Splash.png)
+
 ## 项目简介
 
 本项目将 STM32 嵌入式控制器、MQTT 通信和 Unreal Engine 5 游戏端结合，实现通过实体按键/控制器操作 UE5 双人 Pong 游戏的交互效果。
+
+## 项目展示
+
+本项目围绕 “实体 STM32 控制器 + MQTT 消息通信 + UE5 双人弹球游戏” 展开，展示内容包括 Wi-Fi 接入、MQTT 发布/订阅、双玩家输入控制、胜负音效反馈和数码管计分显示。
 
 ## 视频展示
 

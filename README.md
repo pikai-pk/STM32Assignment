@@ -131,6 +131,158 @@ MQTT Broker 地址同样在 `app_config.h` 中修改：
 4. 将程序烧录到 STM32。
 5. 打开串口调试工具查看日志，确认出现 Wi-Fi connected、MQTT CONNECT OK 等信息。
 
+## 如何运行和游玩
+
+### 运行前准备
+
+需要准备：
+
+- 一台运行 UE5 游戏和 MQTT Broker 的电脑
+- 一到两块 STM32 控制板
+- ESP8266 Wi-Fi 模块
+- 同一个局域网环境，例如手机热点、电脑热点或路由器 Wi-Fi
+- MQTT Broker，例如 Mosquitto、EMQX 或其他兼容 MQTT 3.1.1 的服务
+
+推荐连接方式：
+
+1. 电脑连接到同一个热点或路由器。
+2. STM32 通过 ESP8266 连接同一个 Wi-Fi。
+3. 电脑上启动 MQTT Broker，端口使用 `1883`。
+4. STM32 的 `MQTT_BROKER_HOST` 填电脑的局域网 IPv4 地址。
+5. 运行 UE5 游戏端，让游戏端和 STM32 通过 MQTT 收发控制消息。
+
+### 启动顺序
+
+建议按下面顺序启动：
+
+1. 启动电脑上的 MQTT Broker。
+2. 打开 UE5 打包程序：
+
+```text
+02_UE_Package/Windows/PongMQTT.exe
+```
+
+3. 给 STM32 上电或复位。
+4. 等待 STM32 串口输出 Wi-Fi 和 MQTT 连接成功信息。
+5. LED1~LED8 全部点亮后，表示 STM32 已上线并连接到 MQTT。
+6. 进入游戏后，通过 STM32 按键控制挡板移动。
+
+如果使用 UE5 工程源码运行，也可以打开：
+
+```text
+01_UE_Project/PongMQTT/PongMQTT.uproject
+```
+
+然后在 Unreal Editor 中运行游戏。
+
+### 玩家和按键操作
+
+每块 STM32 对应一名玩家，通过 `PLAYER_ID` 区分：
+
+- `PLAYER_ID = 1`：玩家 1，控制一侧挡板
+- `PLAYER_ID = 2`：玩家 2，控制另一侧挡板
+
+按键操作：
+
+- `SW1` / `KEY1` / `PE1`：向一个方向移动，代码中发送 `move = 1`
+- `SW4` / `KEY2` / `PE4`：向另一个方向移动，代码中发送 `move = -1`
+- 两个按键同时按下或都不按时：不发送移动指令
+
+STM32 每次检测到一次有效按下，会通过 MQTT 发布一条输入消息：
+
+```json
+{"player":1,"move":1}
+```
+
+或：
+
+```json
+{"player":2,"move":-1}
+```
+
+UE5 游戏端收到对应玩家的 `INPUT` 主题后移动挡板。
+
+### 游戏反馈
+
+STM32 会订阅自己的 `RESULT` 主题，接收 UE5 游戏端返回的结果：
+
+- 收到 `win`：蜂鸣器播放胜利音效，数码管分数加 1
+- 收到 `lose`：蜂鸣器播放失败音效
+- 收到 `reset`、`exit` 或离线状态：数码管分数清零，LED 熄灭
+
+四位数码管用于显示当前胜利次数，最大显示到 `9999`。上电时会短暂显示 `8888` 作为自检。
+
+### MQTT 主题说明
+
+玩家 1 使用：
+
+```text
+GAME/PLAYER/1/STATUS
+GAME/PLAYER/1/INPUT
+GAME/PLAYER/1/RESULT
+```
+
+玩家 2 使用：
+
+```text
+GAME/PLAYER/2/STATUS
+GAME/PLAYER/2/INPUT
+GAME/PLAYER/2/RESULT
+```
+
+其中：
+
+- `STATUS`：STM32 上线状态，包含玩家编号和 ESP8266 IP
+- `INPUT`：STM32 按键输入，包含玩家编号和移动方向
+- `RESULT`：UE5 返回给 STM32 的游戏结果，用于蜂鸣器、LED 和数码管反馈
+
+### 常见问题
+
+- STM32 一直连不上 Wi-Fi：检查 `WIFI_SSID`、`WIFI_PASSWORD` 是否正确，并确认热点是 2.4GHz。
+- MQTT 一直连接失败：检查 `MQTT_BROKER_HOST` 是否是电脑局域网 IP，不要填 `127.0.0.1`。
+- 两块板互相掉线：检查两块板的 `PLAYER_ID` 是否分别为 `1` 和 `2`，保证 MQTT Client ID 不重复。
+- UE5 收不到按键：确认 Broker 已启动，电脑防火墙允许 `1883` 端口通信，并确认 STM32 串口里出现 `MQTT CONNECT OK`。
+- LED 全灭：表示当前未完成 MQTT 上线，或收到游戏退出/离线结果。
+
+## STM32 驱动文件作用
+
+自定义驱动和协议代码主要位于：
+
+```text
+03_STM32_Project/PongCtrl/myDrivers/
+```
+
+各文件作用如下：
+
+| 文件 | 作用 |
+| --- | --- |
+| `app_config.h` | 项目集中配置入口，修改 Wi-Fi、MQTT Broker、玩家编号、主题和账号密码。 |
+| `mqtt_config.h` / `mqtt_config.c` | MQTT 配置兼容层，保留旧代码 `include "mqtt_config.h"` 的写法，实际配置来自 `app_config.h`。 |
+| `bsp_esp8266.c` / `bsp_es8266.h` | ESP8266 AT 指令驱动，负责初始化 Wi-Fi 模块、连接热点、读取 IP、连接 MQTT Broker 的 TCP 端口并进入透传模式。 |
+| `bsp_uart_fifo.c` / `bsp_uart_fifo.h` | USART6 串口接收 FIFO，用中断方式缓存 ESP8266 返回的数据，避免 MQTT 数据丢失。 |
+| `mqtt_client.c` / `mqtt_client.h` | 轻量 MQTT 3.1.1 客户端，实现 CONNECT、PUBLISH、SUBSCRIBE 和 PINGREQ 心跳。 |
+| `game_protocol.c` / `game_protocol.h` | Pong 游戏协议层，负责组装 STATUS/INPUT JSON，解析 UE5 返回的 RESULT 消息。 |
+| `keys.c` / `keys.h` | 按键驱动，读取 SW1/PE1 和 SW4/PE4，作为挡板移动输入。 |
+| `led.c` / `led.h` | LED 状态显示驱动，LED1~LED8 低电平点亮；MQTT 上线后全亮，离线或退出后熄灭。 |
+| `buzzer.c` / `buzzer.h` | 蜂鸣器 PWM 驱动，通过 TIM3 输出不同频率，播放胜利或失败提示音。 |
+| `disp_seg.c` / `disp_seg.h` | 四位数码管底层扫描驱动，负责段码输出和位选控制。 |
+| `score_display.c` / `score_display.h` | 分数显示封装，负责数码管自检、分数清零、胜利次数加一和周期刷新。 |
+| `debug_uart.c` | 将 `printf` 重定向到调试串口，便于在串口助手中查看 Wi-Fi、MQTT 和按键日志。 |
+
+核心任务逻辑位于：
+
+```text
+03_STM32_Project/PongCtrl/Core/Src/freertos.c
+```
+
+主要任务：
+
+- `StartTaskNet`：初始化 ESP8266，连接 Wi-Fi 和 MQTT，订阅 RESULT，发布 STATUS，处理 MQTT 收发。
+- `StartTaskButton`：轮询按键，将移动方向投递到网络队列。
+- `StartTaskBuzzer`：接收 RESULT 解析出的胜负事件并播放提示音。
+- `StartTaskStatus`：周期性重复发布在线状态，提高 UE5 端发现设备的成功率。
+- `StartTaskDisplay`：高频刷新四位数码管，显示当前胜利次数。
+
 ## 说明
 
 仓库已启用 Git LFS，用于管理 UE 资源、打包文件和其他大文件。克隆仓库后如需完整拉取大文件，请先安装 Git LFS，然后执行：

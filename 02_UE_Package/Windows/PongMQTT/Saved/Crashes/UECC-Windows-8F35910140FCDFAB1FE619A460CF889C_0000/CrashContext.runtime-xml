@@ -1,0 +1,1970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>12F53FB147025B2610576C89E432AB61</ExecutionGuid>
+<CrashGUID>UECC-Windows-8F35910140FCDFAB1FE619A460CF889C_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Assertion failed: IsInGameThread() || IsInParallelGameThread() [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 7002] 
+
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage>Attended</CrashReporterMessage>
+<ProcessId>46748</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>false</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-PongMQTT</GameName>
+<ExecutableName>PongMQTT</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.7.3-50162420+++UE5+Release-5.7</EngineVersion>
+<EngineCompatibleVersion>5.7.3-50162420+++UE5+Release-5.7</EngineCompatibleVersion>
+<CommandLine> PongMQTT</CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<AppDefaultLocale>zh-CN</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.7-CL-50162420</BuildVersion>
+<Symbols>**UE5*Release-5.7-CL-50162420-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>D:/MyProject/STM32Demo/FinalAssignment/02_UE_Package/Windows/PongMQTT/Binaries/Win64/</BaseDir>
+<RootDir>D:/MyProject/STM32Demo/FinalAssignment/02_UE_Package/Windows/</RootDir>
+<MachineId>CAA6666E4A043F7F4F5EF7894A3EEA9C</MachineId>
+<LoginId>caa6666e4a043f7f4f5ef7894a3eea9c</LoginId>
+<EpicAccountId>62dfe3e5160848ad871cb7b6eff5e85d</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>20</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>28</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-14700HX</Misc.CPUBrand>
+<Misc.CPUModelID>27505</Misc.CPUModelID>
+<Misc.CPUMicrocodeRevision>307</Misc.CPUMicrocodeRevision>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 4060 Laptop GPU</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.6809]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>34124718080</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>50052685824</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>6103523328</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>8279617536</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>1695256576</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>1695268864</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>1836130304</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>1836142592</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>5</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+PongMQTT  0x00007ff6a2220000 + 16fd608         
+PongMQTT  0x00007ff6a2220000 + 532d3a4         
+PongMQTT  0x00007ff6a2220000 + 7e0bb1e         
+PongMQTT  0x00007ff6a2220000 + 7e45842         
+PongMQTT  0x00007ff6a2220000 + 7e4565e         
+PongMQTT  0x00007ff6a2220000 + 8ca720c         
+PongMQTT  0x00007ff6a2220000 + 8ca6f67         
+PongMQTT  0x00007ff6a2220000 + 216a07d         
+PongMQTT  0x00007ff6a2220000 + 2202360         
+PongMQTT  0x00007ff6a2220000 + 22072f2         
+PongMQTT  0x00007ff6a2220000 + 2208549         
+PongMQTT  0x00007ff6a2220000 + 22098ba         
+PongMQTT  0x00007ff6a2220000 + 2223bc5         
+PongMQTT  0x00007ff6a2220000 + 1a22438         
+PongMQTT  0x00007ff6a2220000 + 1a1b35f         
+KERNEL32  0x00007ffac0b00000 + 17374           
+</PCallStack>
+<PCallStackHash>B39DB711DCA44B7C9D5AF3AB7FDD6B239D303294</PCallStackHash>
+<Threads><Thread><CallStack>PongMQTT  0x00007ff6a2220000 + 1e774d3         
+PongMQTT  0x00007ff6a2220000 + 1ea06be         
+PongMQTT  0x00007ff6a2220000 + 1ed25a4         
+PongMQTT  0x00007ff6a2220000 + 1e6e441         
+PongMQTT  0x00007ff6a2220000 + 1e7bbfe         
+PongMQTT  0x00007ff6a2220000 + 1e7bae2         
+PongMQTT  0x00007ff6a2220000 + 1fd46f5         
+PongMQTT  0x00007ff6a2220000 + 22055fd         
+PongMQTT  0x00007ff6a2220000 + 2208549         
+PongMQTT  0x00007ff6a2220000 + 22098ba         
+PongMQTT  0x00007ff6a2220000 + 221acb8         
+PongMQTT  0x00007ff6a2220000 + 22261f9         
+PongMQTT  0x00007ff6a2220000 + 220bebd         
+PongMQTT  0x00007ff6a2220000 + 1e15c29         
+PongMQTT  0x00007ff6a2220000 + 1e158ec         
+PongMQTT  0x00007ff6a2220000 + 2155124         
+PongMQTT  0x00007ff6a2220000 + 215488d         
+PongMQTT  0x00007ff6a2220000 + 2154b67         
+PongMQTT  0x00007ff6a2220000 + 8a52b3a         
+PongMQTT  0x00007ff6a2220000 + 8a141d6         
+PongMQTT  0x00007ff6a2220000 + 7af68c5         
+PongMQTT  0x00007ff6a2220000 + 7af635b         
+PongMQTT  0x00007ff6a2220000 + 8c80d14         
+PongMQTT  0x00007ff6a2220000 + 8c905da         
+PongMQTT  0x00007ff6a2220000 + 8c9078a         
+PongMQTT  0x00007ff6a2220000 + 8c9339a         
+PongMQTT  0x00007ff6a2220000 + 8c9f1a4         
+PongMQTT  0x00007ff6a2220000 + ce8cf7a         
+KERNEL32  0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36812</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 15ec626         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36808</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 15ec626         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41932</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33308</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29992</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41484</ThreadID>
+<ThreadName>Background Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 1372d40         
+PongMQTT    0x00007ff6a2220000 + 138ffc7         
+PongMQTT    0x00007ff6a2220000 + 13616d3         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>46844</ThreadID>
+<ThreadName>Foreground Worker (Standby #0)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36664</ThreadID>
+<ThreadName>Background Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9dc64           
+KERNELBASE  0x00007ffabec10000 + 462de           
+PongMQTT    0x00007ff6a2220000 + 15ec945         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36508</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9dc64           
+KERNELBASE  0x00007ffabec10000 + 462de           
+PongMQTT    0x00007ff6a2220000 + 17d2f32         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>46584</ThreadID>
+<ThreadName>FAsyncWriter_PongMQTT</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 6ae17c1         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31128</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9e134           
+KERNELBASE  0x00007ffabec10000 + 50d10           
+PongMQTT    0x00007ff6a2220000 + cb1d954         
+PongMQTT    0x00007ff6a2220000 + cb1b3bd         
+PongMQTT    0x00007ff6a2220000 + 305ae38         
+PongMQTT    0x00007ff6a2220000 + 3063afd         
+PongMQTT    0x00007ff6a2220000 + 306287c         
+PongMQTT    0x00007ff6a2220000 + 30630f9         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17428</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + b80f3b6         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28988</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + a1014           
+ntdll       0x00007ffac1290000 + 64d6d           
+ntdll       0x00007ffac1290000 + 64c22           
+ntdll       0x00007ffac1290000 + 64933           
+KERNELBASE  0x00007ffabec10000 + 6ee3f           
+PongMQTT    0x00007ff6a2220000 + 171a7a9         
+PongMQTT    0x00007ff6a2220000 + 1397e36         
+PongMQTT    0x00007ff6a2220000 + 17da154         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>46908</ThreadID>
+<ThreadName>OutputDeviceRedirector</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 15ec626         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>38152</ThreadID>
+<ThreadName>IOThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 15ec626         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21372</ThreadID>
+<ThreadName>IOThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 15ec626         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28664</ThreadID>
+<ThreadName>IOThreadPool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 15ec626         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>43464</ThreadID>
+<ThreadName>IOThreadPool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 29804e1         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>24692</ThreadID>
+<ThreadName>IoService</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 16d7661         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>35608</ThreadID>
+<ThreadName>IoDispatcher</ThreadName>
+</Thread>
+<Thread><CallStack>win32u    0x00007ffabf270000 + 1104            
+USER32    0x00007ffac0d20000 + 2212e           
+PongMQTT  0x00007ff6a2220000 + 22ae249         
+PongMQTT  0x00007ff6a2220000 + 1a22438         
+PongMQTT  0x00007ff6a2220000 + 1a1b35f         
+KERNEL32  0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22312</ThreadID>
+<ThreadName>WindowsRawInputThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 5971065         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41068</ThreadID>
+<ThreadName>RHIInterruptThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 5971065         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27384</ThreadID>
+<ThreadName>RHISubmissionThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 138965b         
+PongMQTT    0x00007ff6a2220000 + 1389d5e         
+PongMQTT    0x00007ff6a2220000 + 5d1989c         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>46196</ThreadID>
+<ThreadName>RHIThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 138965b         
+PongMQTT    0x00007ff6a2220000 + 1389d5e         
+PongMQTT    0x00007ff6a2220000 + 5d192f8         
+PongMQTT    0x00007ff6a2220000 + 5d199a9         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26336</ThreadID>
+<ThreadName>RenderThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9dc64           
+KERNELBASE  0x00007ffabec10000 + 462de           
+PongMQTT    0x00007ff6a2220000 + 19a47e5         
+PongMQTT    0x00007ff6a2220000 + 5d19ad7         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>38288</ThreadID>
+<ThreadName>RTHeartBeat 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36720</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>38488</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16072</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>45636</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>48056</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3856</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>46272</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18276</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10564</ThreadID>
+<ThreadName>Background Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>38676</ThreadID>
+<ThreadName>Background Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10824</ThreadID>
+<ThreadName>Background Worker #12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33644</ThreadID>
+<ThreadName>Background Worker #13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>45216</ThreadID>
+<ThreadName>Background Worker #14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>47080</ThreadID>
+<ThreadName>Background Worker #15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13608</ThreadID>
+<ThreadName>Background Worker #16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17604</ThreadID>
+<ThreadName>Background Worker #17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19368</ThreadID>
+<ThreadName>Background Worker #18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36000</ThreadID>
+<ThreadName>Background Worker #19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>44052</ThreadID>
+<ThreadName>Background Worker #20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>34924</ThreadID>
+<ThreadName>Background Worker #21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>37448</ThreadID>
+<ThreadName>Background Worker #22</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136baba         
+PongMQTT    0x00007ff6a2220000 + 1399470         
+PongMQTT    0x00007ff6a2220000 + 13616da         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>40236</ThreadID>
+<ThreadName>Background Worker #23</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 136d97a         
+PongMQTT    0x00007ff6a2220000 + 138fe37         
+PongMQTT    0x00007ff6a2220000 + 13616d3         
+PongMQTT    0x00007ff6a2220000 + 15ec9e4         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>43844</ThreadID>
+<ThreadName>Background Worker (Standby #0)</ThreadName>
+</Thread>
+<Thread><CallStack>NvMemMapStoragex  0x00007ffaa8c20000 + e089b           
+NvMemMapStoragex  0x00007ffaa8c20000 + 5a77e           
+NvMemMapStoragex  0x00007ffaa8c20000 + 60a28           
+nvwgf2umx         0x00007ffaa21b0000 + abfb2d          
+nvwgf2umx         0x00007ffaa21b0000 + 9b00cb          
+nvwgf2umx         0x00007ffaa21b0000 + b37be3          
+nvwgf2umx         0x00007ffaa21b0000 + b30dac          
+nvwgf2umx         0x00007ffaa21b0000 + b313d1          
+nvwgf2umx         0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx         0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx         0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx         0x00007ffaa21b0000 + 7a35ea          
+D3D12Core         0x00007ff923d60000 + 1cba59          
+D3D12Core         0x00007ff923d60000 + 483a3           
+D3D12Core         0x00007ff923d60000 + 5ca2b           
+D3D12Core         0x00007ff923d60000 + 4a3eb           
+d3d12             0x00007ffab9a60000 + 5537            
+D3D12Core         0x00007ff923d60000 + 17aa7           
+D3D12Core         0x00007ff923d60000 + 5804f           
+D3D12Core         0x00007ff923d60000 + 7d505           
+PongMQTT          0x00007ff6a2220000 + 59948f5         
+PongMQTT          0x00007ff6a2220000 + 5994b14         
+PongMQTT          0x00007ff6a2220000 + 5993c3b         
+PongMQTT          0x00007ff6a2220000 + 5992d93         
+PongMQTT          0x00007ff6a2220000 + 59a4c8b         
+PongMQTT          0x00007ff6a2220000 + 58f4db7         
+PongMQTT          0x00007ff6a2220000 + 58ff6da         
+PongMQTT          0x00007ff6a2220000 + 5967b3d         
+PongMQTT          0x00007ff6a2220000 + 5b8a752         
+PongMQTT          0x00007ff6a2220000 + 5b8a241         
+PongMQTT          0x00007ff6a2220000 + 5b88ef6         
+PongMQTT          0x00007ff6a2220000 + 5b91561         
+PongMQTT          0x00007ff6a2220000 + 1516064         
+PongMQTT          0x00007ff6a2220000 + 1514d6e         
+PongMQTT          0x00007ff6a2220000 + 15ec688         
+PongMQTT          0x00007ff6a2220000 + 1a22438         
+PongMQTT          0x00007ff6a2220000 + 1a1b35f         
+KERNEL32          0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23260</ThreadID>
+<ThreadName>PSOPrecompilePool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll      0x00007ffac1290000 + 25731           
+ntdll      0x00007ffac1290000 + 247b1           
+nvwgf2umx  0x00007ffaa21b0000 + e8c24c          
+nvwgf2umx  0x00007ffaa21b0000 + 38253c          
+nvwgf2umx  0x00007ffaa21b0000 + 9ff4fd          
+nvwgf2umx  0x00007ffaa21b0000 + 22443d          
+nvwgf2umx  0x00007ffaa21b0000 + 3824e9          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea5f0          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>38416</ThreadID>
+<ThreadName>PSOPrecompilePool #1</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + ed23c9          
+nvwgf2umx  0x00007ffaa21b0000 + ed7d40          
+nvwgf2umx  0x00007ffaa21b0000 + 121d104         
+nvwgf2umx  0x00007ffaa21b0000 + 121adb0         
+nvwgf2umx  0x00007ffaa21b0000 + 120b632         
+nvwgf2umx  0x00007ffaa21b0000 + 12069b1         
+nvwgf2umx  0x00007ffaa21b0000 + 120bab8         
+nvwgf2umx  0x00007ffaa21b0000 + 113cbd9         
+nvwgf2umx  0x00007ffaa21b0000 + 1404667         
+nvwgf2umx  0x00007ffaa21b0000 + 14041ae         
+nvwgf2umx  0x00007ffaa21b0000 + 1404c77         
+nvwgf2umx  0x00007ffaa21b0000 + 113d375         
+nvwgf2umx  0x00007ffaa21b0000 + 113c1f5         
+nvwgf2umx  0x00007ffaa21b0000 + 8fd52b          
+nvwgf2umx  0x00007ffaa21b0000 + b37303          
+nvwgf2umx  0x00007ffaa21b0000 + b34ad2          
+nvwgf2umx  0x00007ffaa21b0000 + b3147c          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31112</ThreadID>
+<ThreadName>PSOPrecompilePool #2</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + 106c1f          
+nvwgf2umx  0x00007ffaa21b0000 + 105f9c          
+nvwgf2umx  0x00007ffaa21b0000 + fa362           
+nvwgf2umx  0x00007ffaa21b0000 + f64b6           
+nvwgf2umx  0x00007ffaa21b0000 + b37d1a          
+nvwgf2umx  0x00007ffaa21b0000 + b30dac          
+nvwgf2umx  0x00007ffaa21b0000 + b313d1          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>35364</ThreadID>
+<ThreadName>PSOPrecompilePool #3</ThreadName>
+</Thread>
+<Thread><CallStack>KERNEL32   0x00007ffac0b00000 + 290a0           
+nvwgf2umx  0x00007ffaa21b0000 + ed1d46          
+nvwgf2umx  0x00007ffaa21b0000 + ed23aa          
+nvwgf2umx  0x00007ffaa21b0000 + fd6652          
+nvwgf2umx  0x00007ffaa21b0000 + fd53b3          
+nvwgf2umx  0x00007ffaa21b0000 + fd5651          
+nvwgf2umx  0x00007ffaa21b0000 + 1237d26         
+nvwgf2umx  0x00007ffaa21b0000 + 120b632         
+nvwgf2umx  0x00007ffaa21b0000 + 12069b1         
+nvwgf2umx  0x00007ffaa21b0000 + 120bab8         
+nvwgf2umx  0x00007ffaa21b0000 + 113cbd9         
+nvwgf2umx  0x00007ffaa21b0000 + 1404667         
+nvwgf2umx  0x00007ffaa21b0000 + 14041ae         
+nvwgf2umx  0x00007ffaa21b0000 + 1404c77         
+nvwgf2umx  0x00007ffaa21b0000 + 113d375         
+nvwgf2umx  0x00007ffaa21b0000 + 113c1f5         
+nvwgf2umx  0x00007ffaa21b0000 + 8fd52b          
+nvwgf2umx  0x00007ffaa21b0000 + b37303          
+nvwgf2umx  0x00007ffaa21b0000 + b34ad2          
+nvwgf2umx  0x00007ffaa21b0000 + b3147c          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30640</ThreadID>
+<ThreadName>PSOPrecompilePool #4</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + 1398645         
+nvwgf2umx  0x00007ffaa21b0000 + 1397f2d         
+nvwgf2umx  0x00007ffaa21b0000 + 13a7193         
+nvwgf2umx  0x00007ffaa21b0000 + 13a7458         
+nvwgf2umx  0x00007ffaa21b0000 + 133a2ef         
+nvwgf2umx  0x00007ffaa21b0000 + 133aa51         
+nvwgf2umx  0x00007ffaa21b0000 + 113cbd9         
+nvwgf2umx  0x00007ffaa21b0000 + 1404667         
+nvwgf2umx  0x00007ffaa21b0000 + 14041ae         
+nvwgf2umx  0x00007ffaa21b0000 + 1404c77         
+nvwgf2umx  0x00007ffaa21b0000 + 113d375         
+nvwgf2umx  0x00007ffaa21b0000 + 113c1f5         
+nvwgf2umx  0x00007ffaa21b0000 + 8fd52b          
+nvwgf2umx  0x00007ffaa21b0000 + b37303          
+nvwgf2umx  0x00007ffaa21b0000 + b34ad2          
+nvwgf2umx  0x00007ffaa21b0000 + b3147c          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41224</ThreadID>
+<ThreadName>PSOPrecompilePool #5</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + 104b24f         
+nvwgf2umx  0x00007ffaa21b0000 + 104b929         
+nvwgf2umx  0x00007ffaa21b0000 + 10c3202         
+nvwgf2umx  0x00007ffaa21b0000 + 1047d55         
+nvwgf2umx  0x00007ffaa21b0000 + 104d727         
+nvwgf2umx  0x00007ffaa21b0000 + 7f8a69          
+nvwgf2umx  0x00007ffaa21b0000 + b37d43          
+nvwgf2umx  0x00007ffaa21b0000 + b30dac          
+nvwgf2umx  0x00007ffaa21b0000 + b313d1          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>45288</ThreadID>
+<ThreadName>PSOPrecompilePool #6</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + 13e2db5         
+nvwgf2umx  0x00007ffaa21b0000 + 13e30b0         
+nvwgf2umx  0x00007ffaa21b0000 + 13e0254         
+nvwgf2umx  0x00007ffaa21b0000 + 13e610c         
+nvwgf2umx  0x00007ffaa21b0000 + 113cbd9         
+nvwgf2umx  0x00007ffaa21b0000 + 1404667         
+nvwgf2umx  0x00007ffaa21b0000 + 14041ae         
+nvwgf2umx  0x00007ffaa21b0000 + 1404c77         
+nvwgf2umx  0x00007ffaa21b0000 + 113d375         
+nvwgf2umx  0x00007ffaa21b0000 + 113c1f5         
+nvwgf2umx  0x00007ffaa21b0000 + 8fd52b          
+nvwgf2umx  0x00007ffaa21b0000 + b37303          
+nvwgf2umx  0x00007ffaa21b0000 + b34ad2          
+nvwgf2umx  0x00007ffaa21b0000 + b3147c          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39596</ThreadID>
+<ThreadName>PSOPrecompilePool #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll      0x00007ffac1290000 + 2b73f           
+ntdll      0x00007ffac1290000 + 2b3c7           
+nvwgf2umx  0x00007ffaa21b0000 + e8c198          
+nvwgf2umx  0x00007ffaa21b0000 + c4788           
+nvwgf2umx  0x00007ffaa21b0000 + 10b71aa         
+nvwgf2umx  0x00007ffaa21b0000 + 1089680         
+nvwgf2umx  0x00007ffaa21b0000 + 10876eb         
+nvwgf2umx  0x00007ffaa21b0000 + 1086f01         
+nvwgf2umx  0x00007ffaa21b0000 + 105bad4         
+nvwgf2umx  0x00007ffaa21b0000 + 1047b96         
+nvwgf2umx  0x00007ffaa21b0000 + 104d727         
+nvwgf2umx  0x00007ffaa21b0000 + 7f8a69          
+nvwgf2umx  0x00007ffaa21b0000 + b37d43          
+nvwgf2umx  0x00007ffaa21b0000 + b30dac          
+nvwgf2umx  0x00007ffaa21b0000 + b313d1          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>35268</ThreadID>
+<ThreadName>PSOPrecompilePool #8</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + f2c5e           
+nvwgf2umx  0x00007ffaa21b0000 + f2ad1           
+nvwgf2umx  0x00007ffaa21b0000 + 10dbef1         
+nvwgf2umx  0x00007ffaa21b0000 + 10dde1f         
+nvwgf2umx  0x00007ffaa21b0000 + 1049666         
+nvwgf2umx  0x00007ffaa21b0000 + 105bcee         
+nvwgf2umx  0x00007ffaa21b0000 + 104b997         
+nvwgf2umx  0x00007ffaa21b0000 + 10c3202         
+nvwgf2umx  0x00007ffaa21b0000 + 1047d55         
+nvwgf2umx  0x00007ffaa21b0000 + 104d727         
+nvwgf2umx  0x00007ffaa21b0000 + 7f8a69          
+nvwgf2umx  0x00007ffaa21b0000 + b37d43          
+nvwgf2umx  0x00007ffaa21b0000 + b30dac          
+nvwgf2umx  0x00007ffaa21b0000 + b313d1          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36452</ThreadID>
+<ThreadName>PSOPrecompilePool #9</ThreadName>
+</Thread>
+<Thread><CallStack>NvMemMapStoragex  0x00007ffaa8c20000 + e089b           
+NvMemMapStoragex  0x00007ffaa8c20000 + 5a77e           
+NvMemMapStoragex  0x00007ffaa8c20000 + 60a28           
+nvwgf2umx         0x00007ffaa21b0000 + abfb2d          
+nvwgf2umx         0x00007ffaa21b0000 + 9b00cb          
+nvwgf2umx         0x00007ffaa21b0000 + b37be3          
+nvwgf2umx         0x00007ffaa21b0000 + b30dac          
+nvwgf2umx         0x00007ffaa21b0000 + b313d1          
+nvwgf2umx         0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx         0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx         0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx         0x00007ffaa21b0000 + 7a35ea          
+D3D12Core         0x00007ff923d60000 + 1cba59          
+D3D12Core         0x00007ff923d60000 + 483a3           
+D3D12Core         0x00007ff923d60000 + 5ca2b           
+D3D12Core         0x00007ff923d60000 + 4a3eb           
+d3d12             0x00007ffab9a60000 + 5537            
+D3D12Core         0x00007ff923d60000 + 17aa7           
+D3D12Core         0x00007ff923d60000 + 5804f           
+D3D12Core         0x00007ff923d60000 + 7d505           
+PongMQTT          0x00007ff6a2220000 + 59948f5         
+PongMQTT          0x00007ff6a2220000 + 5994b14         
+PongMQTT          0x00007ff6a2220000 + 5993c3b         
+PongMQTT          0x00007ff6a2220000 + 5992d93         
+PongMQTT          0x00007ff6a2220000 + 59a4c8b         
+PongMQTT          0x00007ff6a2220000 + 58f4db7         
+PongMQTT          0x00007ff6a2220000 + 58ff6da         
+PongMQTT          0x00007ff6a2220000 + 5967b3d         
+PongMQTT          0x00007ff6a2220000 + 5b8a752         
+PongMQTT          0x00007ff6a2220000 + 5b8a241         
+PongMQTT          0x00007ff6a2220000 + 5b88ef6         
+PongMQTT          0x00007ff6a2220000 + 5b91561         
+PongMQTT          0x00007ff6a2220000 + 1516064         
+PongMQTT          0x00007ff6a2220000 + 1514d6e         
+PongMQTT          0x00007ff6a2220000 + 15ec688         
+PongMQTT          0x00007ff6a2220000 + 1a22438         
+PongMQTT          0x00007ff6a2220000 + 1a1b35f         
+KERNEL32          0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>42084</ThreadID>
+<ThreadName>PSOPrecompilePool #10</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + 1092358         
+nvwgf2umx  0x00007ffaa21b0000 + 10533ea         
+nvwgf2umx  0x00007ffaa21b0000 + 104aeb6         
+nvwgf2umx  0x00007ffaa21b0000 + 104b929         
+nvwgf2umx  0x00007ffaa21b0000 + 10c3202         
+nvwgf2umx  0x00007ffaa21b0000 + 1047d55         
+nvwgf2umx  0x00007ffaa21b0000 + 104d727         
+nvwgf2umx  0x00007ffaa21b0000 + 7f8a69          
+nvwgf2umx  0x00007ffaa21b0000 + b37d43          
+nvwgf2umx  0x00007ffaa21b0000 + b30dac          
+nvwgf2umx  0x00007ffaa21b0000 + b313d1          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>45632</ThreadID>
+<ThreadName>PSOPrecompilePool #11</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + 108fdf6         
+nvwgf2umx  0x00007ffaa21b0000 + 10493e2         
+nvwgf2umx  0x00007ffaa21b0000 + 1053893         
+nvwgf2umx  0x00007ffaa21b0000 + 104aeb6         
+nvwgf2umx  0x00007ffaa21b0000 + 104b929         
+nvwgf2umx  0x00007ffaa21b0000 + 10c3202         
+nvwgf2umx  0x00007ffaa21b0000 + 1047d55         
+nvwgf2umx  0x00007ffaa21b0000 + 104d727         
+nvwgf2umx  0x00007ffaa21b0000 + 7f8a69          
+nvwgf2umx  0x00007ffaa21b0000 + b37d43          
+nvwgf2umx  0x00007ffaa21b0000 + b30dac          
+nvwgf2umx  0x00007ffaa21b0000 + b313d1          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36884</ThreadID>
+<ThreadName>PSOPrecompilePool #12</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + 104912a         
+nvwgf2umx  0x00007ffaa21b0000 + 1053a70         
+nvwgf2umx  0x00007ffaa21b0000 + 104aeb6         
+nvwgf2umx  0x00007ffaa21b0000 + 104b929         
+nvwgf2umx  0x00007ffaa21b0000 + 10c3202         
+nvwgf2umx  0x00007ffaa21b0000 + 1047d55         
+nvwgf2umx  0x00007ffaa21b0000 + 104d727         
+nvwgf2umx  0x00007ffaa21b0000 + 7f8a69          
+nvwgf2umx  0x00007ffaa21b0000 + b37d43          
+nvwgf2umx  0x00007ffaa21b0000 + b30dac          
+nvwgf2umx  0x00007ffaa21b0000 + b313d1          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>37392</ThreadID>
+<ThreadName>PSOPrecompilePool #13</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + 104472b         
+nvwgf2umx  0x00007ffaa21b0000 + 10921dd         
+nvwgf2umx  0x00007ffaa21b0000 + 105a981         
+nvwgf2umx  0x00007ffaa21b0000 + 1047b96         
+nvwgf2umx  0x00007ffaa21b0000 + 104d727         
+nvwgf2umx  0x00007ffaa21b0000 + 7f8a69          
+nvwgf2umx  0x00007ffaa21b0000 + b37d43          
+nvwgf2umx  0x00007ffaa21b0000 + b30dac          
+nvwgf2umx  0x00007ffaa21b0000 + b313d1          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39992</ThreadID>
+<ThreadName>PSOPrecompilePool #14</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + ec62e7          
+nvwgf2umx  0x00007ffaa21b0000 + ec1bc1          
+nvwgf2umx  0x00007ffaa21b0000 + 10c4cdb         
+nvwgf2umx  0x00007ffaa21b0000 + 108fc05         
+nvwgf2umx  0x00007ffaa21b0000 + 10567bd         
+nvwgf2umx  0x00007ffaa21b0000 + 104aeb6         
+nvwgf2umx  0x00007ffaa21b0000 + 104b929         
+nvwgf2umx  0x00007ffaa21b0000 + 10c3202         
+nvwgf2umx  0x00007ffaa21b0000 + 1047d55         
+nvwgf2umx  0x00007ffaa21b0000 + 104d727         
+nvwgf2umx  0x00007ffaa21b0000 + 7f8a69          
+nvwgf2umx  0x00007ffaa21b0000 + b37d43          
+nvwgf2umx  0x00007ffaa21b0000 + b30dac          
+nvwgf2umx  0x00007ffaa21b0000 + b313d1          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20604</ThreadID>
+<ThreadName>PSOPrecompilePool #15</ThreadName>
+</Thread>
+<Thread><CallStack>NvMemMapStoragex  0x00007ffaa8c20000 + e089b           
+NvMemMapStoragex  0x00007ffaa8c20000 + 5a77e           
+NvMemMapStoragex  0x00007ffaa8c20000 + 60a28           
+nvwgf2umx         0x00007ffaa21b0000 + abfb2d          
+nvwgf2umx         0x00007ffaa21b0000 + 9b00cb          
+nvwgf2umx         0x00007ffaa21b0000 + b3837a          
+nvwgf2umx         0x00007ffaa21b0000 + b3550a          
+nvwgf2umx         0x00007ffaa21b0000 + b35fed          
+nvwgf2umx         0x00007ffaa21b0000 + b34c22          
+nvwgf2umx         0x00007ffaa21b0000 + b3147c          
+nvwgf2umx         0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx         0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx         0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx         0x00007ffaa21b0000 + 7a35ea          
+D3D12Core         0x00007ff923d60000 + 1cba59          
+D3D12Core         0x00007ff923d60000 + 483a3           
+D3D12Core         0x00007ff923d60000 + 5ca2b           
+D3D12Core         0x00007ff923d60000 + 4a3eb           
+d3d12             0x00007ffab9a60000 + 5537            
+D3D12Core         0x00007ff923d60000 + 17aa7           
+D3D12Core         0x00007ff923d60000 + 5804f           
+D3D12Core         0x00007ff923d60000 + 7d505           
+PongMQTT          0x00007ff6a2220000 + 59948f5         
+PongMQTT          0x00007ff6a2220000 + 5994b14         
+PongMQTT          0x00007ff6a2220000 + 5993c3b         
+PongMQTT          0x00007ff6a2220000 + 5992d93         
+PongMQTT          0x00007ff6a2220000 + 59a4c8b         
+PongMQTT          0x00007ff6a2220000 + 58f4db7         
+PongMQTT          0x00007ff6a2220000 + 58ff6da         
+PongMQTT          0x00007ff6a2220000 + 5967b3d         
+PongMQTT          0x00007ff6a2220000 + 5b8a752         
+PongMQTT          0x00007ff6a2220000 + 5b8a241         
+PongMQTT          0x00007ff6a2220000 + 5b88ef6         
+PongMQTT          0x00007ff6a2220000 + 5b91561         
+PongMQTT          0x00007ff6a2220000 + 1516064         
+PongMQTT          0x00007ff6a2220000 + 1514d6e         
+PongMQTT          0x00007ff6a2220000 + 15ec688         
+PongMQTT          0x00007ff6a2220000 + 1a22438         
+PongMQTT          0x00007ff6a2220000 + 1a1b35f         
+KERNEL32          0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33800</ThreadID>
+<ThreadName>PSOPrecompilePool #16</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + 120c61a         
+nvwgf2umx  0x00007ffaa21b0000 + 120b632         
+nvwgf2umx  0x00007ffaa21b0000 + 12069b1         
+nvwgf2umx  0x00007ffaa21b0000 + 120bab8         
+nvwgf2umx  0x00007ffaa21b0000 + 113cbd9         
+nvwgf2umx  0x00007ffaa21b0000 + 1404667         
+nvwgf2umx  0x00007ffaa21b0000 + 14041ae         
+nvwgf2umx  0x00007ffaa21b0000 + 1404c77         
+nvwgf2umx  0x00007ffaa21b0000 + 113d375         
+nvwgf2umx  0x00007ffaa21b0000 + 113c1f5         
+nvwgf2umx  0x00007ffaa21b0000 + 8fd52b          
+nvwgf2umx  0x00007ffaa21b0000 + b37303          
+nvwgf2umx  0x00007ffaa21b0000 + b34ad2          
+nvwgf2umx  0x00007ffaa21b0000 + b3147c          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36928</ThreadID>
+<ThreadName>PSOPrecompilePool #17</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + 10b470c         
+nvwgf2umx  0x00007ffaa21b0000 + 11b693a         
+nvwgf2umx  0x00007ffaa21b0000 + 109f0f6         
+nvwgf2umx  0x00007ffaa21b0000 + b31525          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6428</ThreadID>
+<ThreadName>PSOPrecompilePool #18</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + e272b0          
+nvwgf2umx  0x00007ffaa21b0000 + e276ea          
+nvwgf2umx  0x00007ffaa21b0000 + 10cc534         
+nvwgf2umx  0x00007ffaa21b0000 + 13e8d86         
+nvwgf2umx  0x00007ffaa21b0000 + 13e8b59         
+nvwgf2umx  0x00007ffaa21b0000 + 11a6a42         
+nvwgf2umx  0x00007ffaa21b0000 + 104bcb9         
+nvwgf2umx  0x00007ffaa21b0000 + 10c3202         
+nvwgf2umx  0x00007ffaa21b0000 + 1047d55         
+nvwgf2umx  0x00007ffaa21b0000 + 104d727         
+nvwgf2umx  0x00007ffaa21b0000 + 7f8a69          
+nvwgf2umx  0x00007ffaa21b0000 + b37d43          
+nvwgf2umx  0x00007ffaa21b0000 + b30dac          
+nvwgf2umx  0x00007ffaa21b0000 + b313d1          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11152</ThreadID>
+<ThreadName>PSOPrecompilePool #19</ThreadName>
+</Thread>
+<Thread><CallStack>nvwgf2umx  0x00007ffaa21b0000 + 111c942         
+nvwgf2umx  0x00007ffaa21b0000 + 111cd18         
+nvwgf2umx  0x00007ffaa21b0000 + 10d8969         
+nvwgf2umx  0x00007ffaa21b0000 + 10d7232         
+nvwgf2umx  0x00007ffaa21b0000 + 10c1bc8         
+nvwgf2umx  0x00007ffaa21b0000 + 10d8a4a         
+nvwgf2umx  0x00007ffaa21b0000 + 8fd666          
+nvwgf2umx  0x00007ffaa21b0000 + b37303          
+nvwgf2umx  0x00007ffaa21b0000 + b34ad2          
+nvwgf2umx  0x00007ffaa21b0000 + b3147c          
+nvwgf2umx  0x00007ffaa21b0000 + 6ea267          
+nvwgf2umx  0x00007ffaa21b0000 + 3f3fe0          
+nvwgf2umx  0x00007ffaa21b0000 + 53cea7          
+nvwgf2umx  0x00007ffaa21b0000 + 7a35ea          
+D3D12Core  0x00007ff923d60000 + 1cba59          
+D3D12Core  0x00007ff923d60000 + 483a3           
+D3D12Core  0x00007ff923d60000 + 5ca2b           
+D3D12Core  0x00007ff923d60000 + 4a3eb           
+d3d12      0x00007ffab9a60000 + 5537            
+D3D12Core  0x00007ff923d60000 + 17aa7           
+D3D12Core  0x00007ff923d60000 + 5804f           
+D3D12Core  0x00007ff923d60000 + 7d505           
+PongMQTT   0x00007ff6a2220000 + 59948f5         
+PongMQTT   0x00007ff6a2220000 + 5994b14         
+PongMQTT   0x00007ff6a2220000 + 5993c3b         
+PongMQTT   0x00007ff6a2220000 + 5992d93         
+PongMQTT   0x00007ff6a2220000 + 59a4c8b         
+PongMQTT   0x00007ff6a2220000 + 58f4db7         
+PongMQTT   0x00007ff6a2220000 + 58ff6da         
+PongMQTT   0x00007ff6a2220000 + 5967b3d         
+PongMQTT   0x00007ff6a2220000 + 5b8a752         
+PongMQTT   0x00007ff6a2220000 + 5b8a241         
+PongMQTT   0x00007ff6a2220000 + 5b88ef6         
+PongMQTT   0x00007ff6a2220000 + 5b91561         
+PongMQTT   0x00007ff6a2220000 + 1516064         
+PongMQTT   0x00007ff6a2220000 + 1514d6e         
+PongMQTT   0x00007ff6a2220000 + 15ec688         
+PongMQTT   0x00007ff6a2220000 + 1a22438         
+PongMQTT   0x00007ff6a2220000 + 1a1b35f         
+KERNEL32   0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>35380</ThreadID>
+<ThreadName>PSOPrecompilePool #20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 2c34be1         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30888</ThreadID>
+<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll         0x00007ffac1290000 + 9d664           
+KERNELBASE    0x00007ffabec10000 + 1b6ae           
+PongMQTT      0x00007ff6a2220000 + 199ecbd         
+PongMQTT      0x00007ff6a2220000 + cee95ce         
+VCRUNTIME140  0x00007ffaa1d60000 + f55d            
+ntdll         0x00007ffac1290000 + a29af           
+ntdll         0x00007ffac1290000 + 52554           
+ntdll         0x00007ffac1290000 + 522a7           
+KERNELBASE    0x00007ffabec10000 + 25369           
+PongMQTT      0x00007ff6a2220000 + 19a23fe         
+PongMQTT      0x00007ff6a2220000 + 17c7092         
+PongMQTT      0x00007ff6a2220000 + 16fc2df         
+PongMQTT      0x00007ff6a2220000 + 16fd6cd         
+PongMQTT      0x00007ff6a2220000 + 16fd608         
+PongMQTT      0x00007ff6a2220000 + 532d3a4         
+PongMQTT      0x00007ff6a2220000 + 7e0bb1e         
+PongMQTT      0x00007ff6a2220000 + 7e45842         
+PongMQTT      0x00007ff6a2220000 + 7e4565e         
+PongMQTT      0x00007ff6a2220000 + 8ca720c         
+PongMQTT      0x00007ff6a2220000 + 8ca6f67         
+PongMQTT      0x00007ff6a2220000 + 216a07d         
+PongMQTT      0x00007ff6a2220000 + 2202360         
+PongMQTT      0x00007ff6a2220000 + 22072f2         
+PongMQTT      0x00007ff6a2220000 + 2208549         
+PongMQTT      0x00007ff6a2220000 + 22098ba         
+PongMQTT      0x00007ff6a2220000 + 2223bc5         
+PongMQTT      0x00007ff6a2220000 + 1a22438         
+PongMQTT      0x00007ff6a2220000 + 1a1b35f         
+KERNEL32      0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>37320</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9dc64           
+KERNELBASE  0x00007ffabec10000 + 462de           
+PongMQTT    0x00007ff6a2220000 + 19a47e5         
+PongMQTT    0x00007ff6a2220000 + 8a609a5         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>46044</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 4428ffb         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>24168</ThreadID>
+<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffac1290000 + 9d664           
+KERNELBASE  0x00007ffabec10000 + 1b6ae           
+PongMQTT    0x00007ff6a2220000 + 19a6fe0         
+PongMQTT    0x00007ff6a2220000 + 442940f         
+PongMQTT    0x00007ff6a2220000 + 44292d9         
+PongMQTT    0x00007ff6a2220000 + 1a22438         
+PongMQTT    0x00007ff6a2220000 + 1a1b35f         
+KERNEL32    0x00007ffac0b00000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31452</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformIsRunningWine>false</PlatformIsRunningWine>
+<PlatformSupportsWindows11>true</PlatformSupportsWindows11>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<IsUsingBatterySaver>false</IsUsingBatterySaver>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDMarkersOnly>false</RHI.DREDMarkersOnly>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 4060 Laptop GPU</RHI.AdapterName>
+<RHI.UserDriverVersion>595.97</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>32.0.15.9597</RHI.InternalDriverVersion>
+<RHI.DriverDate>3-17-2026</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>28E0</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>

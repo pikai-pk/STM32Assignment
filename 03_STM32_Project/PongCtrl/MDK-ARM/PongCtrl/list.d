@@ -1,0 +1,12 @@
+pongctrl\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+pongctrl\list.o: D:\Kei5\ARM\ARMCC\Bin\..\include\stdlib.h
+pongctrl\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+pongctrl\list.o: D:\Kei5\ARM\ARMCC\Bin\..\include\stddef.h
+pongctrl\list.o: D:\Kei5\ARM\ARMCC\Bin\..\include\stdint.h
+pongctrl\list.o: ../Core/Inc/FreeRTOSConfig.h
+pongctrl\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+pongctrl\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+pongctrl\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+pongctrl\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+pongctrl\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+pongctrl\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
